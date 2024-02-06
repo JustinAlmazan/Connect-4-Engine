@@ -1,0 +1,89 @@
+*
+{
+    background-color: white;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.connect4
+{
+    display: flex;
+    justify-content: center;
+    background: beige;
+}
+
+.game
+{
+    width: 560px;
+    height: 480px; 
+    position: relative;
+    
+}
+
+.board
+{
+    width: 560px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: blue;
+    border: 10px solid darkblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 3;
+}
+
+.circle
+{
+    height: 62px;
+    width: 62px;
+
+    margin: 4px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 2;
+    pointer-events: none;
+    border: 4px solid darkblue;
+}
+
+.col-buttons
+{
+    width: 560px;
+    height: 480px;
+}
+
+.col-select
+{
+    position: absolute;
+    width: 78px;
+    height: 480px;
+    top: 10px;
+    z-index: 1;
+    background-color: blue;
+    border: none;
+    
+}
+
+.col-select:hover
+{
+    background-color: skyblue;
+}
+
+.red-piece
+{
+    background-color: red;
+}
+
+.yellow-piece
+{
+    background-color: yellow;
+}
